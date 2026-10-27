@@ -1,0 +1,5 @@
+faster-whisper>=1.1
+playwright>=1.49
+numpy>=1.26
+pillow>=10
+static-ffmpeg>=2.7

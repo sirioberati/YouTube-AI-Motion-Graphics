@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>@@TITLE@@</title>
+<!-- the board's own stylesheets and styles; relative URLs already made absolute (file://) so fonts and images load offline -->
+@@HEAD@@
+<style>
+html, body { margin: 0; padding: 0; width: 1920px; height: 1080px; overflow: hidden; background: @@BG@@; }
+.m-root { position: absolute !important; left: 0 !important; top: 0 !important; }
+</style>
+</head>
+<body>
+<!-- the board's root, its Motion script and camera guide dropped; board-sync drives every element -->
+@@ROOT@@
+<script>
+/* GSAP (bundled, offline) */
+@@GSAP@@
+</script>
+<script>
+window.__BOARD = @@CUES@@;
+</script>
+<script>
+@@KIT@@
+</script>
+</body>
+</html>

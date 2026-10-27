@@ -1,0 +1,51 @@
+# Do and don't
+
+## Do
+- Write the title as the claim; the viewer should get the point of the board from the title alone (C06).
+- Keep one idea per card, ≤ 6 words (C07).
+- Size the tile to the clip and show the whole frame; change the layout to fit the footage (C08).
+- Put something real on screen from the board's first frame (M31, C12, C13).
+- Land every element on the start of the word that names it (M31).
+- Keep every readable word at 28 px or more (F03); 36 px on 9:16 (V157).
+- Keep text on screen ≥ max(1.5 s, .6 s + words ÷ 3.2) (M31).
+- Use real assets only and mark examples EXAMPLE; use `.pending` for anything missing (C07, Q34).
+- Use a limits table instead of a paragraph for caveats, licences or "not for" (C13).
+- Cut a close-up or ring the whole tile instead of marking a face (E22, E27, P36).
+- Keyframe a thing that exists before and after a moment so it travels (P37).
+- Use one reveal + one focus per component (C238).
+- Use the hero effects on the one hero element of a board (P195).
+- Keep SFX under the voice: a pop on the frame, a whoosh just before the move (P207).
+- Keep a recurring anchor at exactly the same position and scale (P66, H143).
+- Seed every random (confetti, mosaic, scramble, tiles, wobble) so every render is identical (P199, P216, P221, F265, P68).
+- Credit film footage on every board that shows it (Q34).
+- Quote documents, prompts, comments, posts and READMEs verbatim (B135, C14, S59, S149).
+- Check dates, prices and numbers before you ship, with the date taken (D49, B131, C113).
+- Use logos only from the kit, at their own colours, ≥ 40 px, with the name next to them (L106).
+- Check thumbnails at 160 px wide (T158).
+- Screenshot first / middle / last frame of every board as a contact sheet before handing over (Q34).
+
+## Don't
+- Don't crop, stretch or `object-fit: cover` footage, or cut off heads, hands or panel labels (C08).
+- Don't put anything readable in the camera keep-out (x ≥ 1241, y ≥ 586) (F01, Q34).
+- Don't change the paper colour; black only inside a burned-in insert (F01).
+- Don't use topic-label titles ("Depth", "Step 3"), two-line titles, or a full stop unless it is two short sentences (C06).
+- Don't mix font weights (F03).
+- Don't use blur glows for elevation; elevation is a flat offset shadow (F04).
+- Don't draw circles, rings, scribbles or annotations on faces (E22, E27, P213, P229, F126).
+- Don't put more than 5 stickers on a board, or more than one note (C09, C10).
+- Don't let anything just fade in unless it is a board (M30).
+- Don't slide boards or double-expose them; the next board fades in place (M31).
+- Don't use linear easing on UI (P194).
+- Don't stagger more than 12 items or longer than 1.5 s (P39).
+- Don't invent prompts, stats, errors, logos, names or footage (C14, Q34, A139).
+- Don't recolour, stretch, crop or redraw logos, or put a logo on a face or footage (L106).
+- Don't shrink terminal type below 26 px or shrink a long prompt to fit; scroll it (D54, S61).
+- Don't leave a water ripple wavy while the viewer has to read it (P223).
+- Don't screenshot tiny UI; rebuild the tool's panel big (F128, E119).
+- Don't use clip-art or emoji in illustrations (C16).
+- Don't show a viewer's handle without permission, or a real face as an avatar (S148, C250).
+- Don't show a community member's work without their OK (S150).
+- Don't generate the face in a thumbnail; use a real frame (T158).
+- Don't add a credit line to the end board unless film footage is on it (X41).
+- Don't bring anything new onto the end board in its last 5 s (X41).
+- Don't zoom the camera for emphasis; emphasis comes from the element (P201), except the push-ins the system allows (C08, P38, D55, E27, E123, Y193).
