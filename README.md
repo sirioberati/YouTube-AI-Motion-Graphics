@@ -27,6 +27,7 @@
 | **Every prompt from the video** | From your references folder to the final export, in order. [`prompts/`](prompts/README.md) |
 | **Three Claude skills** | `explainer-board-brief` (what goes on a board), `explainer-board-system` (how it looks and moves, plus a board catalog tagged in the words you say), `board-sync` (sync to your voice and render). [`skills/`](skills) |
 | **Your checks file** | Every correction becomes a DO or a DON'T, and the AI checks every frame against it. [`checks.md`](checks.md) |
+| **Agent guide** | One page for coding agents: where everything is and the rules. [`AGENTS.md`](AGENTS.md) |
 | **Setup check** | Tells you what is missing and how to install it. [`tools/setup-check.sh`](tools/setup-check.sh) |
 
 ## The workflow, in 9 steps
